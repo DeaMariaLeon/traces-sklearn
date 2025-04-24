@@ -90,7 +90,7 @@ plt.show()
 # We saw that coefficients can grow arbitrarily large when features correlate.
 #
 # $$
-# loss = (y - X \beta)^2 + \alpha \|\beta\|_2
+# loss = (y - X \beta)^2 + \alpha \|\beta\|_2^2
 # $$
 #
 # L2 regularization forces weights toward zero. The parameter $\alpha$ controls
