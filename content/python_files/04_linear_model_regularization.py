@@ -132,7 +132,7 @@ plt.show()
 # L1 provides another regularization type. It follows this formula:
 #
 # $$
-# loss = (y - X \beta)^2 + \alpha \|\beta\|_1
+# loss = \frac{1} {2 n\_samples} ||y - X\beta||^2_2 + \alpha  ||\beta||_1
 # $$
 #
 # Scikit-learn implements this as the Lasso regressor.
